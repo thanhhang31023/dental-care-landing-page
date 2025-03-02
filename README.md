@@ -2,7 +2,7 @@
 
 A modern **landing page** for **Shine Smile**, built based on the Figma design.
 
-![Project Preview](https://thanhhang31023.github.io/dental-care-landing-page/assets/img/demo.png)
+![Project Preview](./assets/img/demo.png)
 
 ## 📌 Live Demo
 🔗 **[View Live](https://thanhhang31023.github.io/dental-care-landing-page/)**
