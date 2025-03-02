@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Shine Smile</title>
 
@@ -88,11 +87,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Sora:wght@300;400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&family=Open+Sans:wght@300..800&family=Sora:wght@100..800&display=swap"
             rel="stylesheet"
         />
 
-        <!-- Reset CSS -->
+        <!-- Reset Css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
@@ -100,10 +99,10 @@
         <!-- Header -->
         <header class="header">
             <div class="container">
-                <!-- Header top -->
+                <!--Header top  -->
                 <div class="header-top">
                     <!-- Logo -->
-                    <a href="/">
+                    <a href="#">
                         <div class="logo">
                             <span class="logo__circle"></span>
                             <span class="logo__text">
@@ -120,19 +119,23 @@
                         <ul class="navbar__list">
                             <li class="navbar__item">
                                 <a
-                                    href="#!"
-                                    class="navbar__link navbar__link--active"
+                                    href="#"
+                                    class="navbar__link navbar__item--active"
                                     >Home</a
                                 >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Services</a>
+                                <a href="#services" class="navbar__link"
+                                    >Services</a
+                                >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">About</a>
+                                <a href="#about" class="navbar__link">About</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Doctors</a>
+                                <a href="#doctors" class="navbar__link"
+                                    >Doctors</a
+                                >
                             </li>
                         </ul>
                     </nav>
@@ -140,14 +143,18 @@
                     <!-- Action -->
                     <div class="header-action">
                         <a href="#!" class="header-action__login">Log In</a>
-                        <button href="#!" class="btn header-action__signup">
-                            Sign Up
-                        </button>
+                        <a href="#!" class="btn header-action__signup"
+                            >Sign Up</a
+                        >
                     </div>
                 </div>
+            </div>
+        </header>
 
-                <!-- Hero -->
-                <section class="hero">
+        <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container container__hero">
                     <!-- Hero content -->
                     <section class="hero__content">
                         <h1 class="hero__heading">
@@ -158,10 +165,10 @@
                             smile begins with a great dentist.
                         </p>
                         <div class="hero__row">
-                            <a href="#!" class="btn">Book Online</a>
-                            <span class="hero__phone">
-                                or call (123) 456-7890
-                            </span>
+                            <a href="#!" class="btn" href="#!">Book Online</a>
+                            <span class="hero__phone"
+                                >or call (123) 456-7890</span
+                            >
                         </div>
                     </section>
 
@@ -169,24 +176,22 @@
                     <div class="hero__media">
                         <figure class="hero__images">
                             <img
-                                src="./assets/img/hero-01.jpg"
+                                src="./assets/img/hero-04.jpg"
                                 alt=""
                                 class="hero__img"
                             />
                             <img
-                                src="./assets/img/hero-02.jpg"
+                                src="./assets/img/hero-03.jpg"
                                 alt=""
                                 class="hero__img"
                             />
                         </figure>
                     </div>
-                </section>
-            </div>
-        </header>
+                </div>
+            </section>
 
-        <main>
             <!-- Service -->
-            <section class="service">
+            <section id="services" class="service">
                 <div class="container">
                     <h2 class="service__heading section-heading">
                         Our services
@@ -231,7 +236,6 @@
                                         </p>
                                     </div>
                                 </section>
-
                                 <!-- Service item 2 -->
                                 <section class="service-item">
                                     <div class="service-item__icon">
@@ -258,7 +262,6 @@
                                         </p>
                                     </div>
                                 </section>
-
                                 <!-- Service item 3 -->
                                 <section class="service-item">
                                     <div class="service-item__icon">
@@ -293,7 +296,7 @@
             </section>
 
             <!-- Work -->
-            <section class="work">
+            <section id="about" class="work">
                 <div class="container">
                     <h2 class="section-heading">How it works</h2>
                     <p class="section-desc work__desc">
@@ -305,7 +308,7 @@
                         <!-- Work item 1 -->
                         <section class="work-item">
                             <img
-                                src="./assets/icons/search.svg"
+                                src="./assets/icon/search (1).svg"
                                 alt=""
                                 class="work-item__icon"
                             />
@@ -320,7 +323,7 @@
                         <!-- Work item 2 -->
                         <section class="work-item">
                             <img
-                                src="./assets/icons/search-user.svg"
+                                src="./assets/icon/search-user.svg"
                                 alt=""
                                 class="work-item__icon"
                             />
@@ -335,7 +338,7 @@
                         <!-- Work item 3 -->
                         <section class="work-item">
                             <img
-                                src="./assets/icons/bag.svg"
+                                src="./assets/icon/bag.svg"
                                 alt=""
                                 class="work-item__icon"
                             />
@@ -357,12 +360,12 @@
                         <div class="feature__media">
                             <figure class="feature__images">
                                 <img
-                                    src="./assets/img/feature-01.jpg"
+                                    src="./assets/img/feature2.jpg"
                                     alt=""
                                     class="feature__img"
                                 />
                                 <img
-                                    src="./assets/img/feature-02.jpg"
+                                    src="./assets/img/feature-01.jpg"
                                     alt=""
                                     class="feature__img"
                                 />
@@ -383,79 +386,79 @@
                 </div>
             </section>
 
-            <!-- Member -->
-            <section class="member">
+            <!-- Doctors -->
+            <section id="doctors" class="doctor">
                 <div class="container">
-                    <header class="member__header">
+                    <header class="doctor__header">
                         <h2 class="section-heading">Our virtual dentist</h2>
-                        <a href="#!" class="btn member__cta">
-                            Meet our dentist
-                        </a>
+                        <a href="#!" class="btn doctor__cta"
+                            >Meet our dentist</a
+                        >
                     </header>
 
-                    <div class="member__list">
-                        <!-- Member item 1 -->
-                        <article class="member-item">
-                            <div class="member-item__img-bg">
+                    <div class="doctor__list">
+                        <!-- Doctor item 1 -->
+                        <article class="doctor-item">
+                            <div class="doctor-item__img-bg">
                                 <img
-                                    src="./assets/img/member-01.png"
+                                    src="./assets/img/doctor-01.png"
                                     alt="Dr. Essence Page"
-                                    class="member-item__thumb"
+                                    class="doctor-item__thumb"
                                 />
                             </div>
-                            <h3 class="member-item__name">Dr. Essence Page</h3>
-                            <p class="member-item__title">
+                            <h3 class="doctor-item__name">Dr. Essence Page</h3>
+                            <p class="doctor-item__desc">
                                 DDS, California - Linda University
                             </p>
                         </article>
 
-                        <!-- Member item 2 -->
-                        <article class="member-item">
-                            <div class="member-item__img-bg">
+                        <!-- Doctor item 2 -->
+                        <article class="doctor-item">
+                            <div class="doctor-item__img-bg">
                                 <img
-                                    src="./assets/img/member-02.png"
+                                    src="./assets/img/doctor-02.png"
                                     alt="Dr. Essence Page"
-                                    class="member-item__thumb"
+                                    class="doctor-item__thumb"
                                 />
                             </div>
-                            <h3 class="member-item__name">Dr. Essence Page</h3>
-                            <p class="member-item__title">
+                            <h3 class="doctor-item__name">Dr. Essence Page</h3>
+                            <p class="doctor-item__desc">
                                 DDS, California - Linda University
                             </p>
                         </article>
 
-                        <!-- Member item 3 -->
-                        <article class="member-item">
-                            <div class="member-item__img-bg">
+                        <!-- Doctor item 3 -->
+                        <article class="doctor-item">
+                            <div class="doctor-item__img-bg">
                                 <img
-                                    src="./assets/img/member-03.png"
+                                    src="./assets/img/doctor-03.png"
                                     alt="Dr. Essence Page"
-                                    class="member-item__thumb"
+                                    class="doctor-item__thumb"
                                 />
                             </div>
-                            <h3 class="member-item__name">Dr. Essence Page</h3>
-                            <p class="member-item__title">
+                            <h3 class="doctor-item__name">Dr. Essence Page</h3>
+                            <p class="doctor-item__desc">
                                 DDS, California - Linda University
                             </p>
                         </article>
 
-                        <!-- Member item 4 -->
-                        <article class="member-item">
-                            <div class="member-item__img-bg">
+                        <!-- Doctor item 4 -->
+                        <article class="doctor-item">
+                            <div class="doctor-item__img-bg">
                                 <img
-                                    src="./assets/img/member-04.png"
+                                    src="./assets/img/doctor-04.png"
                                     alt="Dr. Essence Page"
-                                    class="member-item__thumb"
+                                    class="doctor-item__thumb"
                                 />
                             </div>
-                            <h3 class="member-item__name">Dr. Essence Page</h3>
-                            <p class="member-item__title">
+                            <h3 class="doctor-item__name">Dr. Essence Page</h3>
+                            <p class="doctor-item__desc">
                                 DDS, California - Linda University
                             </p>
                         </article>
                     </div>
 
-                    <div class="member__control control">
+                    <div class="doctor__control control">
                         <!-- Previous -->
                         <button class="control__btn">
                             <svg
@@ -477,7 +480,7 @@
                         <!-- Next -->
                         <button class="control__btn">
                             <svg
-                                class="control-next-icon"
+                                class="control-next"
                                 width="6"
                                 height="12"
                                 viewBox="0 0 6 12"
@@ -502,7 +505,7 @@
                     <div class="install__inner">
                         <figure>
                             <img
-                                src="./assets/img/mobile-app.png"
+                                src="./assets/img/install.png"
                                 alt=""
                                 class="install__img"
                             />
@@ -519,7 +522,7 @@
                             <div class="install__row">
                                 <a href="#!">
                                     <img
-                                        src="./assets/img/google-play.svg"
+                                        src="./assets/img/gg-play.svg"
                                         alt=""
                                         class="install__btn-img"
                                     />
@@ -568,7 +571,7 @@
                                 <!-- Next -->
                                 <button class="control__btn">
                                     <svg
-                                        class="control-next-icon"
+                                        class="control-next"
                                         width="6"
                                         height="12"
                                         viewBox="0 0 6 12"
@@ -591,7 +594,7 @@
                                 <figure class="news-item__thumb">
                                     <a href="#!">
                                         <img
-                                            src="./assets/img/news-01.jpg"
+                                            src="./assets/img/new1.jpg"
                                             alt=""
                                             class="news-item__img"
                                         />
@@ -609,9 +612,9 @@
                                         from a narrow perspective. You go to the
                                         hospital.
                                     </p>
-                                    <a href="#!" class="news-item__more">
-                                        Learn More
-                                    </a>
+                                    <a href="#!" class="news-item__more"
+                                        >Learn More</a
+                                    >
                                 </section>
                             </article>
 
@@ -620,7 +623,7 @@
                                 <figure class="news-item__thumb">
                                     <a href="#!">
                                         <img
-                                            src="./assets/img/news-02.jpg"
+                                            src="./assets/img/new2.jpg"
                                             alt=""
                                             class="news-item__img"
                                         />
@@ -638,9 +641,9 @@
                                         from a narrow perspective. You go to the
                                         hospital.
                                     </p>
-                                    <a href="#!" class="news-item__more">
-                                        Learn More
-                                    </a>
+                                    <a href="#!" class="news-item__more"
+                                        >Learn More</a
+                                    >
                                 </section>
                             </article>
                         </div>
@@ -672,7 +675,7 @@
                 <div class="footer__row">
                     <div class="footer__column">
                         <!-- Logo -->
-                        <a href="/">
+                        <a href="#">
                             <div class="logo">
                                 <span class="logo__circle"></span>
                                 <span class="logo__text">
@@ -694,36 +697,33 @@
                         <h3 class="footer__heading">Support</h3>
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Help center
-                                </a>
+                                <a href="#!" class="footer__link"
+                                    >Help center</a
+                                >
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Account information
-                                </a>
+                                <a href="#!" class="footer__link"
+                                    >Account information</a
+                                >
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link"> About </a>
+                                <a href="#!" class="footer__link">About</a>
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Contact us
-                                </a>
+                                <a href="#!" class="footer__link">Contact us</a>
                             </li>
                         </ul>
-
                         <h3 class="footer__heading">Support</h3>
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Help center
-                                </a>
+                                <a href="#!" class="footer__link"
+                                    >Help center</a
+                                >
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Account information
-                                </a>
+                                <a href="#!" class="footer__link"
+                                    >Account information</a
+                                >
                             </li>
                         </ul>
                     </div>
@@ -731,23 +731,22 @@
                         <h3 class="footer__heading">Support</h3>
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Help center
-                                </a>
+                                <a href="#!" class="footer__link"
+                                    >Help center</a
+                                >
                             </li>
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Account information
-                                </a>
+                                <a href="#!" class="footer__link"
+                                    >Account information</a
+                                >
                             </li>
                         </ul>
-
                         <h3 class="footer__heading">Support</h3>
                         <ul class="footer__list">
                             <li class="footer__item">
-                                <a href="#!" class="footer__link">
-                                    Help center
-                                </a>
+                                <a href="#!" class="footer__link"
+                                    >Help center</a
+                                >
                             </li>
                         </ul>
                     </div>
@@ -824,8 +823,8 @@
                 </div>
 
                 <div class="footer__copyright">
-                    <p class="footer__copyright-text">
-                        2021 GDN. Copyright and All rights reserved.
+                    <p class="footer__copyyright-text">
+                        2025 GDN. Copyright and All rights reserved.
                     </p>
                 </div>
             </div>
