@@ -36,6 +36,7 @@ shine-smile-landing-page
 │   │   ├── styles.css
 │   ├── img
 │   ├── icons
+│   ├── favicon
 ├── index.html
 ├── README.md
 ```
